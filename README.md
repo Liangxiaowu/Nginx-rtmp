@@ -102,9 +102,9 @@ firewall-cmd --zone=public --add-port=80/tcp --permanent
 
 ### 播放源
 ```
-推流：
+推流（推荐:OBS）：
 rtmp://192.168.1.163/live/
-拉流：
+拉流（推荐:vlc）：
 rtmp://192.168.1.163/live360p/test 
 视频播放：
 rtmp://ip:port/vod/test.flv
